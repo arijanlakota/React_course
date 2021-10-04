@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/arijanlakota/React_course.git/static/css/main.69b12fb9.chunk.css",
+    "main.js": "/arijanlakota/React_course.git/static/js/main.b67de164.chunk.js",
+    "main.js.map": "/arijanlakota/React_course.git/static/js/main.b67de164.chunk.js.map",
+    "runtime-main.js": "/arijanlakota/React_course.git/static/js/runtime-main.0feff0c0.js",
+    "runtime-main.js.map": "/arijanlakota/React_course.git/static/js/runtime-main.0feff0c0.js.map",
+    "static/js/2.8833cd6e.chunk.js": "/arijanlakota/React_course.git/static/js/2.8833cd6e.chunk.js",
+    "static/js/2.8833cd6e.chunk.js.map": "/arijanlakota/React_course.git/static/js/2.8833cd6e.chunk.js.map",
+    "static/js/3.ff0311e9.chunk.js": "/arijanlakota/React_course.git/static/js/3.ff0311e9.chunk.js",
+    "static/js/3.ff0311e9.chunk.js.map": "/arijanlakota/React_course.git/static/js/3.ff0311e9.chunk.js.map",
+    "index.html": "/arijanlakota/React_course.git/index.html",
+    "static/css/main.69b12fb9.chunk.css.map": "/arijanlakota/React_course.git/static/css/main.69b12fb9.chunk.css.map",
+    "static/js/2.8833cd6e.chunk.js.LICENSE.txt": "/arijanlakota/React_course.git/static/js/2.8833cd6e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0feff0c0.js",
+    "static/js/2.8833cd6e.chunk.js",
+    "static/css/main.69b12fb9.chunk.css",
+    "static/js/main.b67de164.chunk.js"
+  ]
+}
