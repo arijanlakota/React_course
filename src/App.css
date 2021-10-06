@@ -74,21 +74,21 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 350px;
-    height: 300px;
+    width: 400px;
+    height: 350px;
 }
 .maloP{
-  font-size: 12px;
-  opacity: 0.6;
+  font-size: 17px;
+  opacity: 0.8;
   color: gray;
 }
 .zaKarticu{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: baseline;
   justify-content: center;
-  width: 300px;
-  height: 270px;
+  width: 400px;
+  height: 190px;
   border: 1px gray solid;
   border-radius: 10px;
 }
@@ -96,7 +96,29 @@
   display: inline-block;
   width: 40px;
   height: 40px;
-  background-color: rgb(36, 139, 177);
+  background-color: rgb(51, 185, 233);
   text-align: center;
   border-radius: 50%;
+  margin-left:20px;
+}
+.najdiv{
+  margin: auto;
+  width: 30%;
+  height: 250px;
+}
+.cardDiv{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  height: 600px;
+  flex-wrap: wrap;
+}
+#pid,#h3id{
+  margin-left: 20px;
+} 
+#zaBut{
+  width: 60px;
+  height: 28px;
+  background-color: purple;
 }

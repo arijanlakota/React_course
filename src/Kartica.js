@@ -1,15 +1,13 @@
 import './App.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { solid, regular, brands } from '@fortawesome/fontawesome-svg-core/import.macro'
-function Kartica(){
-    const ikonica = props.icon
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { solid } from '@fortawesome/fontawesome-svg-core/import.macro'
+function Kartica({content="Nista niste uneli", description = "Nista niste uneli",}){
     return(
         <div className="zaKarticu">
             <div className="zaIkonu">
-            <FontAwesomeIcon icon={solid(ikonica)} />
             </div>
-            <h3>{content}</h3>
-            <p>{description}</p>
+            <h3 id="h3id">{content}</h3>
+            <p id="pid">{description}</p>
         </div>
     )
 }

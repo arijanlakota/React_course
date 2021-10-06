@@ -1,5 +1,5 @@
 import './App.css';
-function Naslov() {
+function Naslov({header = "Nista niste uneli"}) {
     return(
         <div className="gornjiDiv">
         <h1>{header}</h1>
