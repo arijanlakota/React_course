@@ -1,10 +1,11 @@
 // import logo from './logo.svg';
 import './App.css';
-import Emoji from './Emoji';
+import Form from './Form';
+
 function App() {
     return(
         <div className="App">
-            <Emoji/>
+            <Form/>
         </div>
     )
 }

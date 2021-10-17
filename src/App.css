@@ -37,99 +37,30 @@
   }
 
 }
- /* .velikidiv{
+form{
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 600px;
-  width: 350px;
-}
-.manjidiv{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 350px;
-  height: 330px;
-}
-.div_za_tekst{
-  display: flex;
-  flex-direction: column;
-   align-items: center;
-  justify-content: center;
-  width: 350px;
-  height: 200px;
-}
-.learn{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 350px;
-  height: 100px;
-}
-.gornjiDiv{
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 400px;
-    height: 350px;
-}
-.maloP{
-  font-size: 17px;
-  opacity: 0.8;
-  color: gray;
-}
-.zaKarticu{
-  display: flex;
-  flex-direction: column;
-  align-items: baseline;
-  justify-content: center;
-  width: 400px;
-  height: 190px;
-  border: 1px gray solid;
-  border-radius: 10px;
-}
-.zaIkonu{
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  background-color: rgb(51, 185, 233);
-  text-align: center;
-  border-radius: 50%;
-  margin-left:20px;
-}
-.najdiv{
+  height: 800px;
+  width: 500px;
+  background-color: rgb(99, 8, 99);
   margin: auto;
-  width: 30%;
-  height: 250px;
+  text-align:left;
 }
-.cardDiv{
-  display: flex;
-  width: 100%;
-  justify-content: space-around;
-  align-items: center;
-  height: 600px;
-  flex-wrap: wrap;
-}
-#pid,#h3id{
-  margin-left: 20px;
-} 
-#zaBut{
-  margin: auto;
-  width: 80px;
-  height: 39px;
-  border: none;
-  font-size: 17px;
+label ,p {
   color: white;
-  background-color: rgb(144, 25, 191);
 }
-.butDiv{
-  width: 100%;
-  height: 60px;
+.butdiv{
+  width: 500px;
+  height: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
-}   */
+}
+.but{
+  color: white;
+  width: 80px;
+  height: 45px;
+  border-radius: 15px;
+  text-align: center;
+  background-color: black;
+}

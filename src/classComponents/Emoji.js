@@ -4,7 +4,6 @@ const emojiArr = [{emoji:" 😀 ",emot:"happy"},{emoji:"👿",emot:"evil"},{emoj
 class Emoji extends React.Component{
     constructor(props){
         super(props)
-        
         this.state = {emoji:" 😀 ",emot:"happy"}
     }
     componentDidMount() {
@@ -16,7 +15,7 @@ class Emoji extends React.Component{
         clearInterval(this.timer)
     }
     tick() {
-        this.setState(emojiArr[Math.ceil(Math.random() * 10)])
+        this.setState(emojiArr[Math.ceil(Math.random() * emojiArr.length)])
     }
     render (){
         return (        
