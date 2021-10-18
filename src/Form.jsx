@@ -30,6 +30,7 @@ function Form(){
         check += checkVal
     }
     function handleClick(e){
+        e.preventDefault()
         let error1 = []
         if((firstName.length === 0 || firstName <= 10)){
             error1.push("First name can't be empty or grater than 10 chars")
@@ -43,9 +44,9 @@ function Form(){
         if(radVal === ""){
             error1.push("You must click on a radio button")
         }
-        // if(check === ""){
-        //     error1.push("You must click on at least one checkbox")
-        // }
+        if(checkVal === ""){
+            error1.push("You must click on at least one checkbox")
+        }
         setError(error1)
     }
 
@@ -70,7 +71,7 @@ function Form(){
             </div>
             <div>
                 <p>Select your job</p>
-                <input onChange={handelCheck} type="checkbox" id="fireworker" value="fireworker"/>
+                <input onChange={handelCheck} type="checkbox" id="fireworker" value="fireworker" />
                 <label   for="fireworker">fireworker</label><br/>
                 <input onChange={handelCheck} type="checkbox" id="proprogrammer" value="programmer"/>
                 <label for="proprogrammer">proprogrammer</label><br/>
