@@ -1,15 +1,19 @@
 // import logo from './logo.svg';
 import { useState } from 'react';
-import './App.css';
-import InputUp from './classComponents/InputUp';
-// import MultipleInput from './classComponents/Multipleinput';
-// import Form from './Form';
+import ClickableF from './classComponents/ClickableF';
+import Nav from './classComponents/Nav';
+// import './App.css';
 
 function App() {
-    const [inputValue,setInputValue ]= useState("")
+    const [isDark,setIsDark] = useState(false)
+    function darkMode(e){
+        setIsDark(!isDark)
+    }
     return(
-        <div className="App">
-            <InputUp className="my" defaultValue="123" onChange={(e) => setInputValue(e.target.value)} style={{minWidth:200,color: "blue"}}/>
+        <div className="poravnanje">
+        <Nav className={isDark}/>
+        <ClickableF />
+        <button className="zabut" onClick={darkMode}>Dark mode</button>
         </div>
     )
 }
