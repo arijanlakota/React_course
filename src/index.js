@@ -3,7 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import Context from './classComponents/Context';
+export const AppContext = React.createContext({
+  theme:"dark"
+})
 ReactDOM.render(
   <React.StrictMode>
     <App/>
