@@ -45,3 +45,13 @@
   border-bottom: "1px gray solid";
   text-align: center;
 }
+.quoteDiv{
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  height: 900px;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
