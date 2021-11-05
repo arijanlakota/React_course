@@ -37,21 +37,24 @@
   }
 
 }
-.forTable{
-   height: 400px ;
-   width: 700px;
-}
-.forTd{
-  border-bottom: "1px gray solid";
-  text-align: center;
-}
-.quoteDiv{
+
+.Routediv{
   display: flex;
-  justify-content: center;
-  width: 60%;
-  height: 900px;
-  margin: auto;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  width: 170px;
+  font-size: 20px;
+  height: 100px;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+}
+.zalink{
+  text-decoration: none;
+  color: white;
+}
+.forDiv{
+  height: 100px;
+  width: 70px;
+  border-right: 1px gray solid;
 }

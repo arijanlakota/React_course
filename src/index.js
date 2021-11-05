@@ -4,12 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Context from './classComponents/Context';
+import {BrowserRouter} from "react-router-dom"
 export const AppContext = React.createContext({
   theme:"dark"
 })
 ReactDOM.render(
   <React.StrictMode>
+    <BrowserRouter>
     <App/>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
