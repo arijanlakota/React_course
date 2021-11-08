@@ -58,3 +58,17 @@
   width: 70px;
   border-right: 1px gray solid;
 }
+.navbarDiv{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 110px;
+  background-color: black;
+}
+.forBut{
+  background-color: white;
+  color:black;
+  width: 70px;
+  height: 40px;
+}

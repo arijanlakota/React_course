@@ -7,12 +7,12 @@ import Kartica from "./Malakarica"
 
 function Quote(props){
     const [quote,setQuote] = useState([])
-    useEffect(() => {
-        API.get('quotes?page=1').then((quoteVal) => {
-            console.log(quoteVal.data.results)
-            setQuote(quoteVal.data.results)
-        }).catch(() => {})
-    },[])
+    // useEffect(() => {
+    //     API.get('quotes?page=1').then((quoteVal) => {
+    //         console.log(quoteVal.data.results)
+    //         setQuote(quoteVal.data.results)
+    //     }).catch(() => {})
+    // },[])
     // useEffect(() => { 
     //     try {
     //         const fetchQuote = async () =>  {
